@@ -1,0 +1,43 @@
+{
+    "name": "djunehor/db-backup-restore",
+    "type": "library",
+    "description": "A PHP module to backup DB as well as restore from backup",
+    "keywords": [
+        "djunehor",
+        "database",
+        "backup",
+        "restore",
+        "mysql"
+    ],
+    "homepage": "https://github.com/djunehor/mysql-db-backup-restore",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zacchaeus Bolaji",
+            "email": "djunehor@gmail.com",
+            "homepage": "https://github.com/djunehor",
+            "role": "Software Engineer"
+        }
+    ],
+    "require": {
+        "php" : "~7.0",
+        "ext-mysqli": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Djunehor\\DB\\": "src"
+        }
+    },
+
+    "scripts": {
+
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

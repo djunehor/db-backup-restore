@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="NigerianPhoneTest" file="C:\laragon\www\validate_phone_number\tests\NigerianPhoneTest.php" tests="10" assertions="35" errors="0" failures="0" skipped="0" time="0.010210">
+    <testcase name="testValidNumbers" class="NigerianPhoneTest" classname="NigerianPhoneTest" file="C:\laragon\www\validate_phone_number\tests\NigerianPhoneTest.php" line="71" assertions="6" time="0.008840"/>
+    <testcase name="testInvalidNumbers" class="NigerianPhoneTest" classname="NigerianPhoneTest" file="C:\laragon\www\validate_phone_number\tests\NigerianPhoneTest.php" line="79" assertions="2" time="0.000123"/>
+    <testcase name="testIsPhone" class="NigerianPhoneTest" classname="NigerianPhoneTest" file="C:\laragon\www\validate_phone_number\tests\NigerianPhoneTest.php" line="86" assertions="5" time="0.000128"/>
+    <testcase name="testIsNotPhone" class="NigerianPhoneTest" classname="NigerianPhoneTest" file="C:\laragon\www\validate_phone_number\tests\NigerianPhoneTest.php" line="94" assertions="2" time="0.000066"/>
+    <testcase name="testIsLandLine" class="NigerianPhoneTest" classname="NigerianPhoneTest" file="C:\laragon\www\validate_phone_number\tests\NigerianPhoneTest.php" line="101" assertions="2" time="0.000070"/>
+    <testcase name="testIsNotLandLine" class="NigerianPhoneTest" classname="NigerianPhoneTest" file="C:\laragon\www\validate_phone_number\tests\NigerianPhoneTest.php" line="108" assertions="3" time="0.000515"/>
+    <testcase name="testNetwork" class="NigerianPhoneTest" classname="NigerianPhoneTest" file="C:\laragon\www\validate_phone_number\tests\NigerianPhoneTest.php" line="115" assertions="5" time="0.000168"/>
+    <testcase name="testAreaCode" class="NigerianPhoneTest" classname="NigerianPhoneTest" file="C:\laragon\www\validate_phone_number\tests\NigerianPhoneTest.php" line="122" assertions="2" time="0.000071"/>
+    <testcase name="testPrefix" class="NigerianPhoneTest" classname="NigerianPhoneTest" file="C:\laragon\www\validate_phone_number\tests\NigerianPhoneTest.php" line="129" assertions="4" time="0.000083"/>
+    <testcase name="testGetAreaCodeByName" class="NigerianPhoneTest" classname="NigerianPhoneTest" file="C:\laragon\www\validate_phone_number\tests\NigerianPhoneTest.php" line="136" assertions="4" time="0.000146"/>
+  </testsuite>
+</testsuites>

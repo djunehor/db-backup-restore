@@ -1,0 +1,6 @@
+backup
+composer.lock
+vendor
+.idea
+phpcs.xml
+phpunit.xml
