@@ -70,10 +70,6 @@ class BackUp {
         return $tables;
     }
 
-    /*
-     *
-     * ------------------------------------------start----------------------------------------------------------
-     */
 
 	/**
 	 *
@@ -88,7 +84,7 @@ class BackUp {
         $dir = $dir ? $dir : __DIR__.'/../backup/';
         // 
         if (! is_dir ( $dir )) {
-            mkdir ( $dir, 0777, true ) or die ( 'Failed to create Directory' );
+            mkdir ( $dir, 0777, true ) or die ( $this->lang['create_directory_failed'] );
         }
         $size = $size ? $size : 2048;
         $sql = '';

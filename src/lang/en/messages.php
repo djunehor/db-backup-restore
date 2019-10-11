@@ -15,6 +15,7 @@ return [
 	'database' => 'database',
 	'error' => 'ERROR',
 	'db_conn_error' => 'Mysql Connect Error',
+	'create_directory_failed' => 'Failed to find/create backup Directory',
 	'table_not_found' => "Table doesn't exist!",
 	'backing_up_table' => "Backing up the table",
 	'retrieve_tables' => "Retrieved DB tables",

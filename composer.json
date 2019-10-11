@@ -9,7 +9,7 @@
         "restore",
         "mysql"
     ],
-    "homepage": "https://github.com/djunehor/mysql-db-backup-restore",
+    "homepage": "https://github.com/djunehor/db-backup-restore",
     "license": "MIT",
     "authors": [
         {
@@ -34,7 +34,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.0-dev"
+            "dev-master": "1.0.0"
         }
     },
     "config": {
